@@ -12,4 +12,12 @@
     1.git tag v1.0.0
     2.git push origin v1.0.0
 12. untuk upgrade module kita hanya cukup membuat tag baru di git
-13.
+13. git add . 
+14. git commit -m "update SayHello"
+15. git push origin master
+16. updgrade tag/version:
+    - git tag v1.5.0
+    - git push origin v1.5.0
+17. major upgrade, sebaikny klo major ganti nama module biar tidak mengganggu module yg lama
+18. contoh: module github.com/yusup84/go-say-hello/v2 ditambahin v2 paling belakang
+19. 
